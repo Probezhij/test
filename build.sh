@@ -2,6 +2,8 @@
 
 set -e
 
+export PATH=/Applications/CMake.app/Contents/bin:$PATH
+
 ACTION=""
 REPO_DIR=$PWD
 BUILD_DIR=build
